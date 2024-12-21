@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowtec</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        /* Floating title animation */
+        .floating-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: #3498db;
+            animation: float 3s ease-in-out infinite;
+            margin-top: 20px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .content {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating title -->
+    <div class="floating-title">Flowtec</div>
+    
+    <!-- Company description -->
+    <div class="content">
+        <h2>About Flowtec</h2>
+        <p>
+            Flowtec is a leading provider of high-quality taps and pipes, delivering reliable plumbing solutions for both residential and commercial needs.
+            We are committed to providing durable and efficient products, ensuring optimal water flow and performance for every installation.
+        </p>
+        <p>
+            Our team of experts works closely with clients to offer customized solutions, whether it’s a home renovation or large-scale construction project. 
+            With a focus on innovation and sustainability, Flowtec ensures that all our products meet the highest standards.
+        </p>
+    </div>
+</body>
+</html
